@@ -29,8 +29,8 @@ h2 {
     text-align: left;
     color: #282828;
 
-    width: 562px;
-    height: 108px;
+    width: 100%;
+    /* height: 108px; */
     top: 83px;
     left: 136px;
 
@@ -42,11 +42,11 @@ h2 {
 
 p:nth-child(2) {
     /* box-sizing: border-box; */
-    width: 495px;
-    height: 81px;
+    margin-top: 15px;
+    width: 100%;
+    height: 75px;
     top: 219px;
     left: 136px;
-
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -58,10 +58,10 @@ p:nth-child(2) {
 strong {
     display: inline-block;
     box-sizing: border-box;
-    padding-top: 25px;
-    width: 227px;
+    padding-top: 15px;
+    width: 245px;
     height: 50px;
-    top: 315px;
+    /* top: 315px; */
     left: 136px;
 
     font-family: Inter;
@@ -73,7 +73,7 @@ strong {
 }
 
 #parent {
-    margin-top: 28px;
+    margin-top: 15px;
     display: flex;
 }
 
@@ -84,15 +84,17 @@ input {
     left: 136px;
     border-radius: 8px;
     border: 4px;
-    /* margin-top: 10px; */
-
-    color: #FFFFFF;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #000000;
     border: 4px solid #000000;
 }
 
 ::placeholder {
     width: 350px;
     height: 64px;
+
     top: 411px;
     left: 158px;
 
@@ -110,18 +112,21 @@ button {
     height: 64px;
     top: 411px;
     left: 496px;
-    margin-left: 10px;
-
+    margin: 10px 0px 0px 10px;
+    cursor: pointer;
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
-
     background: #282828;
     border-radius: 8px;
     text-align: center;
     color: #FFFFFF;
+}
+
+button:hover {
+    scale: 1.02;
 }
 
 p:nth-child(5) {
@@ -162,6 +167,9 @@ p:nth-child(5) {
 ul {
     color: #FFFFFF;
     list-style: none;
+}
+
+#footer-right ul {
     text-align: end;
 }
 
@@ -190,8 +198,8 @@ ul li {
         letter-spacing: 0em;
         text-align: left;
         color: #282828;
-        width: 236px;
-        height: 83px;
+        width: 100%;
+        /* height: 83px; */
         font-family: Inter;
         font-size: 19px;
         font-weight: bold;
@@ -200,8 +208,8 @@ ul li {
 
     p:nth-child(2) {
         /* box-sizing: border-box; */
-        width: 188px;
-        height: 97px;
+        width: 100%;
+        /* height: 97px; */
         top: 219px;
         left: 136px;
         font-family: Inter;
@@ -215,10 +223,10 @@ ul li {
     strong {
         display: inline-block;
         box-sizing: border-box;
-        padding-top: 25px;
-        width: 227px;
+        padding-top: 8px;
+        width: 245px;
         height: 50px;
-        top: 315px;
+        /* top: 315px; */
         left: 136px;
 
         font-family: Inter;
